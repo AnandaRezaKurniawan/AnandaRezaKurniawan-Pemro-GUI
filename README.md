@@ -1,6 +1,6 @@
-# AnandaRezaKurniawan-Praktikum-Pemro-GUI
+# AnandaRezaKurniawan-19104061-Praktikum-Pemro-GUI
 
-# MODUL 1
+# MODUL 1 Pertemuan 1
 # VARIABEL, TIPE DATA DAN OPERATOR
 
 # 1. INSTALASI SOFTWARE PHYTON
