@@ -14,3 +14,5 @@ download selesai, cukup double click untuk menjalankan program instalasinya.
 ![image](https://user-images.githubusercontent.com/72422050/114906143-f4ae6780-9e43-11eb-870d-57db4f10088c.png)
 
 ![image](https://user-images.githubusercontent.com/72422050/114906682-7dc59e80-9e44-11eb-9ae3-183916d18115.png)
+
+![image](https://user-images.githubusercontent.com/72422050/114907361-312e9300-9e45-11eb-9dca-6b8eccdc6d66.png)
