@@ -1,2 +1,2 @@
-# AnandaRezaKurniawan-Pemro-GUI
-praktikum
+# AnandaRezaKurniawan-Praktikum-Pemro-GUI
+
