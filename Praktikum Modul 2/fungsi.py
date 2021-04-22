@@ -1,3 +1,4 @@
+# 19104061
 # fungsi global di python
 
 def kali (a,b):
