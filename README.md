@@ -1,1 +1,3 @@
-# AnandaRezaKurniawan-Pemro-GUI
+# AnandaRezaKurniawan
+
+# TEORI DAN PRAKTIKUM
