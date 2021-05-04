@@ -10,8 +10,11 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 class Ui_Form(object):
     def setupUi(self, Form):
+        # code untuk membuat label data mahasiswa
         Form.setObjectName("Form")
         Form.resize(568, 546)
+        
+        # code buat label
         self.label = QtWidgets.QLabel(Form)
         self.label.setGeometry(QtCore.QRect(170, 20, 261, 41))
         font = QtGui.QFont()
@@ -19,6 +22,8 @@ class Ui_Form(object):
         font.setPointSize(20)
         font.setBold(True)
         font.setWeight(75)
+        
+        #label NIM
         self.label.setFont(font)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(Form)
@@ -28,6 +33,8 @@ class Ui_Form(object):
         font.setPointSize(10)
         font.setBold(True)
         font.setWeight(75)
+        
+        #label NAMA
         self.label_2.setFont(font)
         self.label_2.setObjectName("label_2")
         self.label_3 = QtWidgets.QLabel(Form)
@@ -37,6 +44,8 @@ class Ui_Form(object):
         font.setPointSize(10)
         font.setBold(True)
         font.setWeight(75)
+        
+        #label JURUSAN
         self.label_3.setFont(font)
         self.label_3.setObjectName("label_3")
         self.label_4 = QtWidgets.QLabel(Form)
@@ -46,6 +55,8 @@ class Ui_Form(object):
         font.setPointSize(10)
         font.setBold(True)
         font.setWeight(75)
+        
+        #label No.Telp
         self.label_4.setFont(font)
         self.label_4.setObjectName("label_4")
         self.label_5 = QtWidgets.QLabel(Form)
@@ -57,18 +68,28 @@ class Ui_Form(object):
         font.setWeight(75)
         self.label_5.setFont(font)
         self.label_5.setObjectName("label_5")
+        
+        # code buat lineedit NIM
         self.lineEdit_2 = QtWidgets.QLineEdit(Form)
         self.lineEdit_2.setGeometry(QtCore.QRect(100, 420, 441, 20))
         self.lineEdit_2.setObjectName("lineEdit_2")
+        
+        # code buat lineedit NAMA
         self.lineEdit_3 = QtWidgets.QLineEdit(Form)
         self.lineEdit_3.setGeometry(QtCore.QRect(100, 450, 441, 20))
         self.lineEdit_3.setObjectName("lineEdit_3")
+        
+        # code buat lineedit JURUSAN
         self.lineEdit_4 = QtWidgets.QLineEdit(Form)
         self.lineEdit_4.setGeometry(QtCore.QRect(100, 480, 441, 20))
         self.lineEdit_4.setObjectName("lineEdit_4")
+        
+        # code buat lineedit No.Telp
         self.lineEdit_5 = QtWidgets.QLineEdit(Form)
         self.lineEdit_5.setGeometry(QtCore.QRect(100, 390, 441, 20))
         self.lineEdit_5.setObjectName("lineEdit_5")
+        
+        # code buat kolom textedit
         self.textEdit = QtWidgets.QTextEdit(Form)
         self.textEdit.setGeometry(QtCore.QRect(30, 80, 511, 291))
         self.textEdit.setObjectName("textEdit")
@@ -77,6 +98,8 @@ class Ui_Form(object):
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
+        
+        # code buat pushbutton Tambah
         self.pushButton.setFont(font)
         self.pushButton.setObjectName("pushButton")
         self.pushButton_2 = QtWidgets.QPushButton(Form)
@@ -84,6 +107,8 @@ class Ui_Form(object):
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
+        
+        # code buat pushbutton Edit
         self.pushButton_2.setFont(font)
         self.pushButton_2.setObjectName("pushButton_2")
         self.pushButton_3 = QtWidgets.QPushButton(Form)
@@ -91,6 +116,8 @@ class Ui_Form(object):
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
+        
+        # code buat pushbutton Clear
         self.pushButton_3.setFont(font)
         self.pushButton_3.setObjectName("pushButton_3")
         self.pushButton_4 = QtWidgets.QPushButton(Form)
@@ -98,12 +125,15 @@ class Ui_Form(object):
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
+        
+        # code buat pushbutton Hapus
         self.pushButton_4.setFont(font)
         self.pushButton_4.setObjectName("pushButton_4")
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
-
+        
+# memberi nama pada buttonnya secara tampilan
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
@@ -122,7 +152,7 @@ class Ui_Form(object):
         self.pushButton_3.setText(_translate("Form", "HAPUS"))
         self.pushButton_4.setText(_translate("Form", "TAMBAH"))
 
-
+# buat memanggil
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
