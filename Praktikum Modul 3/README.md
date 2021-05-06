@@ -15,7 +15,7 @@
 #Kemudian Mengonversi file.ui ke file.py
 # Hasil :
 
-# (GUI2)
+# (GUI2.py)
 ![image](https://user-images.githubusercontent.com/72422050/117262462-7a3d9a00-ae7b-11eb-85bf-b4208a11aaee.png)
 
 
