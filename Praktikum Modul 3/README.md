@@ -13,6 +13,6 @@
 #Kemudian Mengonversi file.ui ke file.py
 # Hasil :
 # (GUI2)
-![image](https://user-images.githubusercontent.com/72422050/117262386-642fd980-ae7b-11eb-8bb1-fecc1ac03772.png)
+![image](https://user-images.githubusercontent.com/72422050/117262462-7a3d9a00-ae7b-11eb-85bf-b4208a11aaee.png)
 
 
