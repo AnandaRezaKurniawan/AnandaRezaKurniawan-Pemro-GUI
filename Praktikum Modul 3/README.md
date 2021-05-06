@@ -4,7 +4,7 @@
 
 #Kemudian Mengonversi file.ui ke file.py
 # Hasil :
-(GUI1.py)
+# (GUI1.py)
 ![image](https://user-images.githubusercontent.com/72422050/117261442-54fc5c00-ae7a-11eb-8f22-587f89858d49.png)
 
 # 2 GUI2
@@ -12,5 +12,6 @@
 
 #Kemudian Mengonversi file.ui ke file.py
 # Hasil :
-(GUI2)
-![image](https://user-images.githubusercontent.com/72422050/117262211-35b1fe80-ae7b-11eb-97fd-4e7bdae0a91d.png)
+# (GUI2)
+![image](https://user-images.githubusercontent.com/72422050/117262286-482c3800-ae7b-11eb-9c63-861cfc6791dc.png)
+
