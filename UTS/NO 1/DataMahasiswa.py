@@ -10,7 +10,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtWidgets import (QWidget, QVBoxLayout,
                              QHBoxLayout, QLineEdit,
                              QPushButton, QListWidget)
-from Edit import *
+from edittabelmahasiswa import *
 
 
 class Ui_Form(object):
