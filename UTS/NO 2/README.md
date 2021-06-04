@@ -1,4 +1,6 @@
-# Pada line
+# Penghapusan pada line 17
+
+![image](https://user-images.githubusercontent.com/72422050/120752674-47e39300-c534-11eb-8ba4-2655dbabac0c.png)
 
 ![image](https://user-images.githubusercontent.com/72422050/120752375-ca1f8780-c533-11eb-9781-c755c77f04c0.png)
 
