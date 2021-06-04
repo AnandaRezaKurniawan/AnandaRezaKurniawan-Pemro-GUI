@@ -1,5 +1,4 @@
-from PyQt5.QtWidgets import (QDialog, QGridLayout,
-                             QHBoxLayout, QLabel, QLineEdit, QPushButton)
+from PyQt5.QtWidgets import (QDialog, QGridLayout,QHBoxLayout, QLabel, QLineEdit, QPushButton)
 
 
 class EntryForm(QDialog):
