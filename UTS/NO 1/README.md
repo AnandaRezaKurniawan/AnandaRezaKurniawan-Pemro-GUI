@@ -11,3 +11,6 @@
 ![image](https://user-images.githubusercontent.com/72422050/120754649-2afc8f00-c537-11eb-9b54-ba3e7c04be0e.png)
 
 ![image](https://user-images.githubusercontent.com/72422050/120754807-5b442d80-c537-11eb-9238-db86307d5c58.png)
+
+# jika kita tekan tombol clear maka data mahasiswa akan terhapus semua
+![image](https://user-images.githubusercontent.com/72422050/120754966-9181ad00-c537-11eb-8fc0-c86768ea5bdc.png)
