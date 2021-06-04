@@ -7,99 +7,131 @@
 # WARNING! All changes made in this file will be lost!
 
 from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import (QWidget, QVBoxLayout,
+                             QHBoxLayout, QLineEdit,
+                             QPushButton, QListWidget)
+from Edit import *
+
 
 class Ui_Form(object):
     def setupUi(self, Form):
         Form.setObjectName("Form")
-        Form.resize(568, 546)
+        Form.resize(607, 597)
         self.label = QtWidgets.QLabel(Form)
-        self.label.setGeometry(QtCore.QRect(170, 20, 261, 41))
+        self.label.setGeometry(QtCore.QRect(230, 40, 141, 16))
         font = QtGui.QFont()
-        font.setFamily("Times New Roman")
-        font.setPointSize(20)
+        font.setPointSize(13)
         font.setBold(True)
         font.setWeight(75)
+
+        # Label untuk Text Mahasiswa
         self.label.setFont(font)
         self.label.setObjectName("label")
         self.label_2 = QtWidgets.QLabel(Form)
-        self.label_2.setGeometry(QtCore.QRect(30, 420, 51, 16))
+        self.label_2.setGeometry(QtCore.QRect(60, 410, 171, 20))
         font = QtGui.QFont()
-        font.setFamily("Times New Roman")
-        font.setPointSize(10)
+        font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
+
+        # Label untuk Text NIM
         self.label_2.setFont(font)
         self.label_2.setObjectName("label_2")
+
+        # Line Edit Untuk NIM
+        self.lineEdit = QtWidgets.QLineEdit(Form)
+        self.lineEdit.setGeometry(QtCore.QRect(130, 410, 401, 20))
+        self.lineEdit.setObjectName("lineEdit")
+
+        # Line Edit Untuk Nama
+        self.lineEdit_2 = QtWidgets.QLineEdit(Form)
+        self.lineEdit_2.setGeometry(QtCore.QRect(130, 440, 401, 20))
+        self.lineEdit_2.setObjectName("lineEdit_2")
+
+        # Label untuk Text Nama
         self.label_3 = QtWidgets.QLabel(Form)
-        self.label_3.setGeometry(QtCore.QRect(30, 450, 71, 16))
+        self.label_3.setGeometry(QtCore.QRect(60, 440, 171, 20))
         font = QtGui.QFont()
-        font.setFamily("Times New Roman")
-        font.setPointSize(10)
+        font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
         self.label_3.setFont(font)
         self.label_3.setObjectName("label_3")
+
+        # Line Edit Untuk Jurusan
+        self.lineEdit_3 = QtWidgets.QLineEdit(Form)
+        self.lineEdit_3.setGeometry(QtCore.QRect(130, 470, 401, 20))
+        self.lineEdit_3.setObjectName("lineEdit_3")
+
+        # Label untuk Text Jurusan
         self.label_4 = QtWidgets.QLabel(Form)
-        self.label_4.setGeometry(QtCore.QRect(30, 480, 81, 20))
+        self.label_4.setGeometry(QtCore.QRect(60, 470, 171, 20))
         font = QtGui.QFont()
-        font.setFamily("Times New Roman")
-        font.setPointSize(10)
+        font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
         self.label_4.setFont(font)
         self.label_4.setObjectName("label_4")
+
+        # Line Edit Untuk No.Telp
+        self.lineEdit_4 = QtWidgets.QLineEdit(Form)
+        self.lineEdit_4.setGeometry(QtCore.QRect(130, 500, 401, 20))
+        self.lineEdit_4.setObjectName("lineEdit_4")
+
+        # Label untuk Text No.Telp
         self.label_5 = QtWidgets.QLabel(Form)
-        self.label_5.setGeometry(QtCore.QRect(30, 390, 47, 13))
+        self.label_5.setGeometry(QtCore.QRect(60, 500, 171, 20))
         font = QtGui.QFont()
-        font.setFamily("Times New Roman")
-        font.setPointSize(10)
+        font.setPointSize(11)
         font.setBold(True)
         font.setWeight(75)
         self.label_5.setFont(font)
         self.label_5.setObjectName("label_5")
-        self.lineEdit_2 = QtWidgets.QLineEdit(Form)
-        self.lineEdit_2.setGeometry(QtCore.QRect(100, 420, 441, 20))
-        self.lineEdit_2.setObjectName("lineEdit_2")
-        self.lineEdit_3 = QtWidgets.QLineEdit(Form)
-        self.lineEdit_3.setGeometry(QtCore.QRect(100, 450, 441, 20))
-        self.lineEdit_3.setObjectName("lineEdit_3")
-        self.lineEdit_4 = QtWidgets.QLineEdit(Form)
-        self.lineEdit_4.setGeometry(QtCore.QRect(100, 480, 441, 20))
-        self.lineEdit_4.setObjectName("lineEdit_4")
-        self.lineEdit_5 = QtWidgets.QLineEdit(Form)
-        self.lineEdit_5.setGeometry(QtCore.QRect(100, 390, 441, 20))
-        self.lineEdit_5.setObjectName("lineEdit_5")
-        self.textEdit = QtWidgets.QTextEdit(Form)
-        self.textEdit.setGeometry(QtCore.QRect(30, 80, 511, 291))
-        self.textEdit.setObjectName("textEdit")
+
+        # PushButton untuk Button TAMBAH
         self.pushButton = QtWidgets.QPushButton(Form)
-        self.pushButton.setGeometry(QtCore.QRect(290, 510, 75, 23))
+        self.pushButton.setGeometry(QtCore.QRect(210, 530, 75, 23))
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
         self.pushButton.setFont(font)
         self.pushButton.setObjectName("pushButton")
+        self.pushButton.clicked.connect(self.addButtonClick)
+
+        # PushButton untuk Button EDIT
         self.pushButton_2 = QtWidgets.QPushButton(Form)
-        self.pushButton_2.setGeometry(QtCore.QRect(380, 510, 75, 23))
+        self.pushButton_2.setGeometry(QtCore.QRect(290, 530, 75, 23))
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_2.setFont(font)
         self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_2.clicked.connect(self.editButtonClick)
+
+        # PushButton untuk Button CLEAR
         self.pushButton_3 = QtWidgets.QPushButton(Form)
-        self.pushButton_3.setGeometry(QtCore.QRect(470, 510, 75, 23))
+        self.pushButton_3.setGeometry(QtCore.QRect(370, 530, 75, 23))
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_3.setFont(font)
         self.pushButton_3.setObjectName("pushButton_3")
+
+        # PushButton untuk Button HAPUS
         self.pushButton_4 = QtWidgets.QPushButton(Form)
-        self.pushButton_4.setGeometry(QtCore.QRect(200, 510, 75, 23))
+        self.pushButton_4.setGeometry(QtCore.QRect(450, 530, 75, 23))
         font = QtGui.QFont()
         font.setBold(True)
         font.setWeight(75)
         self.pushButton_4.setFont(font)
         self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_4.clicked.connect(self.deleteButtonClick)
+
+        # List Widget untuk Menampilkan Hasil
+        self.listWidget = QtWidgets.QListWidget(Form)
+        self.listWidget.setGeometry(QtCore.QRect(60, 80, 471, 311))
+        self.listWidget.setObjectName("listWidget")
+        self.pushButton_3.clicked.connect(self.listWidget.clear)
 
         self.retranslateUi(Form)
         QtCore.QMetaObject.connectSlotsByName(Form)
@@ -107,29 +139,52 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Form"))
-        self.label.setText(_translate("Form", "DATA MAHASISWA"))
-        self.label_2.setText(_translate("Form", "NAMA"))
-        self.label_3.setText(_translate("Form", "JURUSAN"))
-        self.label_4.setText(_translate("Form", "No.Telp"))
-        self.label_5.setText(_translate("Form", "NIM"))
-        self.textEdit.setHtml(_translate("Form", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'MS Shell Dlg 2\'; font-size:8.25pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>"))
-        self.pushButton.setText(_translate("Form", "EDIT"))
-        self.pushButton_2.setText(_translate("Form", "CLEAR"))
-        self.pushButton_3.setText(_translate("Form", "HAPUS"))
-        self.pushButton_4.setText(_translate("Form", "TAMBAH"))
+        self.label.setText(_translate("Form", "Data Mahasiswa"))
+        self.label_2.setText(_translate("Form", "NIM"))
+        self.label_3.setText(_translate("Form", "Nama"))
+        self.label_4.setText(_translate("Form", "Jurusan"))
+        self.label_5.setText(_translate("Form", "No.Telp"))
+        self.pushButton.setText(_translate("Form", "TAMBAH"))
+        self.pushButton_2.setText(_translate("Form", "EDIT"))
+        self.pushButton_3.setText(_translate("Form", "CLEAR"))
+        self.pushButton_4.setText(_translate("Form", "HAPUS"))
+
+    def addButtonClick(self):
+        self.listWidget.addItem(
+            self.lineEdit.text() + ' - ' +
+            self.lineEdit_2.text() + ' - ' +
+            self.lineEdit_3.text() + ' - ' +
+            self.lineEdit_4.text())
+
+    def editButtonClick(self):
+        if self.listWidget.currentRow() < 0: return
+        self.entryForm = EntryForm()
+        s = str(self.listWidget.currentItem().text())
+        idx = s.index('-')
+        self.entryForm.nim.setText(s[:(idx - 1)])
+        self.entryForm.nama.setText(s[(idx - 2):])
+        self.entryForm.jurusan.setText(s[(idx - 3):])
+        self.entryForm.telp.setText(s[(idx - 4):])
+
+        if self.entryForm.exec_() == QDialog.Accepted:
+            self.listWidget.currentItem().setText(
+                self.entryForm.nim.text() + ' - ' +
+                self.entryForm.nama.text() + ' - ' +
+                self.entryForm.jurusan.text() + ' - ' +
+                self.entryForm.telp.text())
+
+    def deleteButtonClick(self):
+        row = self.listWidget.currentRow()
+        if row >= 0:
+            self.listWidget.takeItem(row)
 
 
 if __name__ == "__main__":
     import sys
+
     app = QtWidgets.QApplication(sys.argv)
     Form = QtWidgets.QWidget()
     ui = Ui_Form()
     ui.setupUi(Form)
     Form.show()
     sys.exit(app.exec_())
-
-
