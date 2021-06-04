@@ -4,7 +4,7 @@
 # Hasil Run dari DataMahasiswa.py :
 ![image](https://user-images.githubusercontent.com/72422050/120755074-b118d580-c537-11eb-929a-34f9a010608e.png)
 
-# kemudian isi pada lebel tersebut dengan data mahasiswa :
+# kemudian isi pada lebel NIM, NAMA, JURUSAN, No.Telp tersebut :
 ![image](https://user-images.githubusercontent.com/72422050/120753943-27b4d380-c536-11eb-9d59-d4b1e987e4f1.png)
 
 # Jika kita klik Edit maka akan keliuar menu edit yang kita pilih :
