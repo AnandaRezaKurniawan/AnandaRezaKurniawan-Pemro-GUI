@@ -9,3 +9,5 @@
 
 # Jika kita ingin menghapus kalian tinggal klik pilih salah satu ditabel tersebut kemudian klik hapus :
 ![image](https://user-images.githubusercontent.com/72422050/120754649-2afc8f00-c537-11eb-9b54-ba3e7c04be0e.png)
+
+![image](https://user-images.githubusercontent.com/72422050/120754807-5b442d80-c537-11eb-9238-db86307d5c58.png)
