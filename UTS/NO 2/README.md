@@ -1,4 +1,4 @@
-# Penghapusan pada line 17
+# Penghapusan pada line 17, karena ada kesalahan, jadi perlu dihapus agar berjalan dengan baik, tapi ketika dihapus runing nya tidak muncul, namun jika line 17 tidak dihapus maka hasil run nya akan keluar sepeti dibawah ini
 
 ![image](https://user-images.githubusercontent.com/72422050/120752674-47e39300-c534-11eb-8ba4-2655dbabac0c.png)
 
