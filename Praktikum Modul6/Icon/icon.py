@@ -9,12 +9,12 @@ class DemoIcon(QWidget):
     def setupUi(self):
         self.resize(400, 100)
         self.move(300, 300)
-        self.setWindowTitle('Latihan Icon')
+        self.setWindowTitle('Latihan Demo Icon')
         self.label = QLabel()
-        self.label.setText('<b>ALAMBUH BODOAMAAT</b>')
+        self.label.setText('<b>Susah Lhur</b>')
         icon1 = QIcon('delete-icon.png')
 
-        self.button1 = QPushButton('\tHAPUS SI KUDU')
+        self.button1 = QPushButton('\tBingung Lhur')
         self.button1.setIcon(icon1)
         layout = QGridLayout()
         layout.addWidget(self.label, 0, 0 , 1, 5)
