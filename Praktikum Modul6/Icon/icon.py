@@ -12,7 +12,7 @@ class DemoIcon(QWidget):
         self.setWindowTitle('Latihan Demo Icon')
         self.label = QLabel()
         self.label.setText('<b>Susah Lhur</b>')
-        icon1 = QIcon('delete-icon.png')
+        icon1 = QIcon('deleteicon.jpg')
 
         self.button1 = QPushButton('\tBingung Lhur')
         self.button1.setIcon(icon1)
